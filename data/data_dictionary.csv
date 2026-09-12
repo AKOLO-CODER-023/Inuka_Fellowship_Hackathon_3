@@ -1,0 +1,42 @@
+field,definition
+date,Operating date.
+record_status,SIMULATED_HISTORY through 2026-09-12; SCENARIO_FUTURE afterwards.
+policy,Inventory control policy used in simulation.
+depot,KPC inland depot used by the synthetic network.
+product,"PMS, AGO, DPK or JET_A1."
+tank_capacity_m3,Published KPC product storage capacity for the depot.
+opening_stock_m3,Synthetic start-of-day usable inventory.
+customer_orders_m3,Synthetic requested daily demand; recommended forecasting target.
+pipeline_receipts_m3,Synthetic pipeline receipt volume delivered that day.
+emergency_truck_receipts_m3,Synthetic emergency inter-depot road transfer received.
+dispatch_m3,Fulfilled/loaded demand volume; used in inventory reconciliation.
+unfulfilled_demand_m3,Orders not fulfilled due to inventory or loading constraints.
+closing_stock_m3,End-of-day stock = opening + receipts - dispatch.
+safety_stock_m3,Synthetic minimum safety inventory threshold.
+reorder_point_m3,Synthetic autonomous replenishment trigger threshold.
+days_of_cover,Closing stock divided by the day's requested demand.
+pipeline_line,Published corridor name where available; Nakuru mapping is a scenario attribution.
+pipeline_flow_limit_m3_hr,Published KPC installed flow capacity for the assigned corridor.
+pipeline_available,Synthetic daily availability flag (1/0).
+pump_available,Synthetic pump availability flag (1/0).
+loading_bays_available,Synthetic available loading-bay count.
+loading_capacity_m3,Synthetic daily loading throughput capacity.
+trucks_requested,Synthetic trucks implied by customer demand and road-dispatch share.
+trucks_loaded,Synthetic trucks loaded based on fulfilled dispatch.
+avg_truck_turnaround_min,Synthetic average truck turnaround time.
+queue_time_min,Synthetic average queue component of truck turnaround.
+delayed_trucks,Synthetic count of delayed trucks.
+batch_triggered,1 when replenishment policy creates a pipeline batch.
+batch_volume_m3,Synthetic replenishment batch quantity requested.
+emergency_replenishment,1 when emergency road transfer is invoked.
+holiday_flag,1 for selected Kenyan public holidays used in the scenario.
+event_label,Operational anomaly/event label; NORMAL if none.
+rainfall_mm,Synthetic rainfall feature.
+reference_price_kes_l,Synthetic scenario reference price; not official historical pump price.
+day_of_week,Calendar weekday.
+month,Calendar month number.
+year,Calendar year.
+stock_status,"HEALTHY, WATCH, CRITICAL or STOCKOUT."
+autonomous_action,Action selected by the simulated control-plane policy.
+capacity_breach_flag,Validation flag: 1 if stock exceeds capacity.
+inventory_reconciliation_error,Validation flag: 1 if stock equation fails tolerance.

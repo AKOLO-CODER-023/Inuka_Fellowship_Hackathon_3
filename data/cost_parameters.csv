@@ -1,0 +1,6 @@
+parameter,value,unit,source_type,note
+stockout_value_at_risk_per_m3_kes,12000,KES/m3,SYNTHETIC_SCENARIO,Adjustable ROI assumption; not a KPC disclosed cost
+emergency_logistics_premium_per_m3_kes,450,KES/m3,SYNTHETIC_SCENARIO,Premium used for emergency road transfer scenario
+manual_intervention_cost_per_action_kes,15000,KES/action,SYNTHETIC_SCENARIO,Time/coordination cost proxy
+implementation_cost_kes,8500000,KES,SYNTHETIC_SCENARIO,One-time platform implementation assumption
+annual_support_cost_kes,1800000,KES/year,SYNTHETIC_SCENARIO,Annual cloud/support/monitoring assumption

@@ -1,0 +1,10 @@
+{
+  "rows_daily_operations": 32865,
+  "rows_pipeline_batches": 2951,
+  "rows_control_plane_events": 3994,
+  "capacity_breaches": 0,
+  "reconciliation_errors": 0,
+  "stockout_rows": 0,
+  "future_scenario_rows": 1650,
+  "seed": 20260912
+}

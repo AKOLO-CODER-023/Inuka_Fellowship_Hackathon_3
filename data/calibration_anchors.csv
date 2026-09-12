@@ -1,0 +1,7 @@
+year,national_petroleum_demand_m3,source_type,source_url,note
+2021,5488546.18,OFFICIAL_EPRA,https://www.epra.go.ke/sites/default/files/2025-09/Statistics-Report-June-2025-Web.pdf,EPRA annual total used as anchor
+2022,5738653.82,OFFICIAL_EPRA,https://www.epra.go.ke/sites/default/files/2025-09/Statistics-Report-June-2025-Web.pdf,EPRA annual total used as anchor
+2023,5577690.6,OFFICIAL_EPRA,https://www.epra.go.ke/sites/default/files/2025-09/Statistics-Report-June-2025-Web.pdf,EPRA annual total used as anchor
+2024,5460436.82,OFFICIAL_EPRA,https://www.epra.go.ke/sites/default/files/2025-09/Statistics-Report-June-2025-Web.pdf,EPRA annual total used as anchor
+2025,5839464.78,OFFICIAL_EPRA,https://www.epra.go.ke/sites/default/files/2025-09/Statistics-Report-June-2025-Web.pdf,EPRA annual total used as anchor
+2026,6220000.0,SYNTHETIC_SCENARIO,https://www.epra.go.ke/sites/default/files/2026-03/Biannual%20Statistics%20Report%202025-2026_0.pdf,Scenario annualization; not an official EPRA forecast
