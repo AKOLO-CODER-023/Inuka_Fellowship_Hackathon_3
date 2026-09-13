@@ -1,0 +1,26 @@
+[
+  {
+    "event_id": "a4304ead-def9-46c7-b731-955b573b81e6",
+    "event_type": "PIPELINE_BATCH_REQUEST",
+    "depot": "Eldoret",
+    "product": "AGO",
+    "action": "PIPELINE_BATCH",
+    "volume_m3": 10000,
+    "priority": "CRITICAL",
+    "execution_type": "SIMULATED_PIPELINE_BATCH",
+    "status": "SIMULATED",
+    "logged_at": "2026-09-13T11:37:41.198831+00:00"
+  },
+  {
+    "event_id": "c2228935-d42f-4f4e-afac-f22e6c3d8cb9",
+    "event_type": "PIPELINE_BATCH_REQUEST",
+    "depot": "Eldoret",
+    "product": "AGO",
+    "action": "PIPELINE_BATCH",
+    "volume_m3": 10000,
+    "priority": "CRITICAL",
+    "execution_type": "SIMULATED_PIPELINE_BATCH",
+    "status": "SIMULATED",
+    "logged_at": "2026-09-13T11:37:44.422136+00:00"
+  }
+]
