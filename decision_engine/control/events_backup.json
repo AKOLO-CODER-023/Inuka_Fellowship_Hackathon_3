@@ -34,17 +34,5 @@
     "execution_type": "NO_EXECUTION",
     "status": "SIMULATED",
     "logged_at": "2026-09-15T16:53:53.766323+00:00"
-  },
-  {
-    "event_id": "caaf92eb-225d-4891-b428-39e09124bff3",
-    "event_type": "NO_ACTION",
-    "depot": "string",
-    "product": "string",
-    "action": "NO_ACTION",
-    "volume_m3": 0,
-    "priority": "LOW",
-    "execution_type": "NO_EXECUTION",
-    "status": "SIMULATED",
-    "logged_at": "2026-09-15T17:00:12.372565+00:00"
   }
 ]
