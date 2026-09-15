@@ -14,16 +14,18 @@ def show_executive():
     )
 
 
+
     # Load data
 
-    roi_df = pd.read_csv(
-        "data/roi_comparison_2026.csv"
+    from services.data_loader import (
+    load_roi_comparison,
+    load_cost_parameters
     )
 
-    cost_df = pd.read_csv(
-        "data/cost_parameters.csv"
-    )
 
+    roi_df = load_roi_comparison()
+
+    cost_df = load_cost_parameters()
 
     # Calculate ROI
 
